@@ -7,6 +7,7 @@
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-blue)](https://www.typescriptlang.org/)
   [![Vite](https://img.shields.io/badge/Vite-5.4.1-purple)](https://vitejs.dev/)
   [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+  [![Deployment](https://img.shields.io/badge/Deployment-Vercel-black)](https://resume-ai.vercel.app)
 </div>
 
 ResumeAI is a modern web application that leverages artificial intelligence to analyze resumes, provide job matching insights, and offer personalized suggestions for career advancement. Built with cutting-edge technologies and a focus on user experience, ResumeAI helps job seekers optimize their resumes and find better career opportunities.
@@ -226,6 +227,21 @@ Stay updated with the latest changes:
 - Subscribe to our newsletter
 - Join our Discord community
 - Follow us on social media
+
+## 🔄 Recent Updates
+
+### Latest Changes (March 2024)
+- 🚀 Deployed to Vercel with improved routing
+- 🔧 Added Vercel configuration for SPA routing
+- 🎨 Enhanced UI components and animations
+- 📱 Improved mobile responsiveness
+- 🔒 Enhanced security configurations
+
+### Deployment Status
+- ✅ Production: [resume-ai.vercel.app](https://resume-ai.vercel.app)
+- 🔄 Automatic deployments on main branch
+- 📊 Performance monitoring enabled
+- 🔍 SEO optimizations implemented
 
 ---
 

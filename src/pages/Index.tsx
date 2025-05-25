@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import ResumeAnalyzer from "@/components/ResumeAnalyzer";
-import Footer from "@/components/Footer";
+import JobUpdates3D from "@/components/JobUpdates3D";
 import { motion, useScroll, useTransform } from "framer-motion";
 import useSettingsStore from "@/stores/settingsStore";
 
@@ -53,6 +53,11 @@ const Index = () => {
           <Hero />
         )}
         
+        {/* Job Updates 3D Section */}
+        <section className="py-12 flex justify-center items-center">
+          <JobUpdates3D />
+        </section>
+        
         {/* Features section with scroll animations */}
         {animationsEnabled ? (
           <motion.section
@@ -98,8 +103,6 @@ const Index = () => {
           </>
         )}
       </main>
-      
-      <Footer />
     </div>
   );
 };
